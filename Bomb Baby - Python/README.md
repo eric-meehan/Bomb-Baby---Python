@@ -1,7 +1,7 @@
 Bomb Baby
 ======================
 
-This problem was presented to me through the Google FooBar challenge.
+This problem was presented to me through the Google FooBar challenge. 
 
 You're so close to destroying the LAMBCHOP doomsday device you can taste it! But in order to do so, you need to deploy special self-replicating bombs designed for you by the brightest scientists on Bunny Planet. There are two types: Mach bombs (M) and Facula bombs (F). The bombs, once released into the LAMBCHOP's inner workings, will automatically deploy to all the strategic points you've identified and destroy them at the same time.
 
