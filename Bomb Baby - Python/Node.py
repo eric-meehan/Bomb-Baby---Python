@@ -6,7 +6,7 @@ Bomb Baby - Node Class
 """
 
 class Node():
-    def __init__(position):
+    def __init__(self, position):
         # Initializes the Node class to have the
         self.Position = position
         # The dividend of the two numbers in Position is stored to eliminate redundant operations later
@@ -32,8 +32,12 @@ class Node():
         
     def ConditionedSubtraction(self):
         # Alters the Position of the Node by subtracting the smaller number from the larger until their positions flip
-        max(self.Position) -= min(self.Position) * self.Dividend
-        # Calculate the new dividend
-        self.CalculateDividend()
+        if self.Position[0] > self.Position[1]:
+            self.Position[0] -= self.Position[1] * self.Dividend
+        else:
+            self.Position[1] -= self.Position[0] * self.Dividend
         # Increment Operations
         self.Operations += self.Dividend
+        # Calculate the new dividend
+        self.CalculateDividend()
+        
