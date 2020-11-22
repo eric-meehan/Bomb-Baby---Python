@@ -22,6 +22,7 @@
 		0714DB17256AF074007B4068 /* Bomb Baby - Python */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bomb Baby - Python"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0714DB24256AF124007B4068 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0714DB25256AF146007B4068 /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		0714DB27256AF3AE007B4068 /* Node.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Node.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				0714DB24256AF124007B4068 /* README.md */,
 				0714DB25256AF146007B4068 /* main.py */,
+				0714DB27256AF3AE007B4068 /* Node.py */,
 			);
 			path = "Bomb Baby - Python";
 			sourceTree = "<group>";
